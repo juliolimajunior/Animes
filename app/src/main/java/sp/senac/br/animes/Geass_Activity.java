@@ -1,0 +1,13 @@
+package sp.senac.br.animes;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Geass_Activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.geass_layout);
+    }
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu_Activity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="140dp"
+        android:text="Catálago"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ImageView
+        android:onClick="abrirPersonagem"
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ergo_proxy" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ergo Proxy"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:onClick="abrirPersonagem"
+            android:layout_width="130dp"
+            android:layout_height="180dp"
+            android:src="@drawable/codegeas" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Code Geass"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+
